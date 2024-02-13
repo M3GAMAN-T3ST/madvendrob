@@ -2,8 +2,8 @@ Config = {}
 
 -- ROBBERY CONFIG --
 Config.HeistCooldown = 1800000 -- Robbery Cooldown (in milliseconds - '1800000' is 30 minutes)
-Config.PoliceAlert = 60 -- This is a % out of 100 to alert police
-Config.RequiredPolice = 0 -- Required Police Count (set to 0 for no check)
+Config.PoliceAlert = 75 -- This is a % out of 100 to alert police
+Config.RequiredPolice = 1 -- Required Police Count (set to 0 for no check)
 Config.RequiredItem = 'lockpick' -- Item needed to rob the object
 Config.ProgressBarSpeed = 20000 -- Length for all progress bars
 
