@@ -17,12 +17,12 @@ Config.MinigameMS = 30 -- Speed of the minigame (in milliseconds)
 
 -- CASH REWARD CONFIG --
 Config.CashChance = 100 -- This is a % out of 100 to receive cash
-Config.MinReward = 5 -- Minimum Reward $
-Config.MaxReward = 50 -- Maximum Reward $
+Config.MinReward = 100 -- Minimum Reward $
+Config.MaxReward = 500 -- Maximum Reward $
 
 -- COMMON ITEMS REWARD -- 
 Config.CommonItemsChance = 75 -- This is a % out of 100 to receive an item from the CommonItems list
-Config.CommonItemAmount = 1 -- Amount of the item you receive when you get an item from CommonItems
+Config.CommonItemAmount = 5 -- Amount of the item you receive when you get an item from CommonItems
 Config.CommonItems = { -- Items you have a chance to get 1 of:
     "cola",
     "ecoladiet",
@@ -36,7 +36,7 @@ Config.CommonItems = { -- Items you have a chance to get 1 of:
 Config.RareItemsChance = 10 -- This is a % out of 100 to receive an item from the RareItems list
 Config.RareItemAmount = 1 -- Amount of the item you receive when you get an item from RareItems
 Config.RareItems = { -- Items you have a chance to get 1 of:
-    "usb2",
+    "electronickit",
 }
 
 -- ROBBABLE OBJECTS --
